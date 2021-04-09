@@ -1,0 +1,84 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+
+/* Header Styling Start */
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    width: 30%;
+    padding: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color:black
+}
+
+nav a img{
+    height: 20px;
+}
+/* Header Styling End */
+
+/* Main Body Styling Start */
+.main-container{
+    width: 50%;
+    margin: 140px auto;
+    text-align: center;
+}
+
+#search{
+width: 80%;
+padding: 10px;
+margin: 20px;
+border-radius: 20px;
+border: 1px solid gray;
+}
+
+.btn-container button{
+padding: 10px;
+border: none;
+}
+
+.lang-text-bar{
+margin: 20px;
+}
+
+a{
+text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* Footer Styling Starts */
+footer{
+background-color: rgba(0, 0, 0, 0.185);
+}
+
+.footer-top-container > h4{
+padding: 10px;
+color: gray;
+}
+
+.footer-down-container{
+display: flex;
+justify-content: space-between;
+padding:10px;
+}
+.left a, .right a{
+margin-right: 10px;
+}
+.footer-down-container a{
+color:gray;
+}
+
+
+
+
+
+
